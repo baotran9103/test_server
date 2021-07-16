@@ -11,7 +11,7 @@ var router = express.Router();
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-var port = process.env.PORT || 10456;
+var port = process.env.PORT || 443;
 app.listen(port);
 console.log("Oder API is running at " + port);
 //  ========= end middleware ==================
